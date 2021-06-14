@@ -1,8 +1,7 @@
 /*
  *  UCF COP3330 Summer 2021 Assignment 1 Solution
- *  Copyright 2021 first_name last_name
+ *  Copyright 2021 Joseph Crown
  */
-
 package base;
 
 import java.util.Scanner;
@@ -30,16 +29,10 @@ Write a version of the program that displays the greeting in a GUI window.
 public class App {
 
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
-
-        //input
-        System.out.println("What is your name?");
-        String name = input.nextLine();
-
-        // concatenation
-        String greeting = "Hello, " + name + ", nice to meet you!";
-
-        //output
-        System.out.println(greeting);
+        String k = "";
+        for(int i = 0; i <= 10; i++) {
+            k += i;
+        }
+        System.out.println(k);
     }
 }
